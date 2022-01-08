@@ -34,7 +34,7 @@ test('renderteam returns a dom node with 2 p tags name and score', (expect) => {
         score1: 3
     };
 
-    const expected = '<div class=\"team\"><p class=\"name\">[object Object]</p><p class=\"score\"></p></div>';
+    const expected = '<div class="team"><p class="name">[object Object]</p><p class="score"></p></div>';
     
     //Act 
     // Call the function you're testing and set the result to a const
